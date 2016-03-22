@@ -15,7 +15,7 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 
 // MongoLab Connect
-var database = require('../config/database');
+var database = require('./config/database');
 mongoose.connect(database.url); // connect to our database
 
 // configure app to use bodyParser()

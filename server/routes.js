@@ -8,7 +8,7 @@
 
 module.exports = function(app) {
 
-    app.use('/api/thing', require('./routes/thing.route'));
+    app.use('/api/thing', require('./api/thing/thing.route'));
 
 
 // REGISTER OUR ROUTES -------------------------------
